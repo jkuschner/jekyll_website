@@ -1,16 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Hyde</title>
+ <title>Joshua Kuschner</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2020-06-25T19:18:39-07:00</updated>
+ <updated>2020-06-25T22:01:45-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
-   <name>Mark Otto</name>
+   <name>Joshua Kuschner</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>note1</title>
+   <link href="http://localhost:4000/2020/06/25/first_note.html"/>
+   <updated>2020-06-25T00:00:00-07:00</updated>
+   <id>http://localhost:4000/2020/06/25/first_note</id>
+   <content type="html">&lt;p&gt;This is the first note. websites are hard&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>project1</title>
+   <link href="http://localhost:4000/2020/05/05/first_project.html"/>
+   <updated>2020-05-05T00:00:00-07:00</updated>
+   <id>http://localhost:4000/2020/05/05/first_project</id>
+   <content type="html">&lt;p&gt;eee here is my project is iss very good.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Introducing Hyde</title>
