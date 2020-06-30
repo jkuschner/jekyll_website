@@ -1,0 +1,15 @@
+---
+layout: default
+title: Interests
+---
+
+<div class="posts">
+  {% for post in site.posts %}
+  {% if post.interests %}
+
+        <h2>{{ post.title }}</h2>
+        {{ post.content }}
+        <hr>
+  {% endif %}
+  {% endfor %}
+</div>
