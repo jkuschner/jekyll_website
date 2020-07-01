@@ -1,0 +1,8 @@
+#linksbox {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#linksbox div {
+  flex-grow: 1;
+}

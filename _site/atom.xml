@@ -4,7 +4,7 @@
  <title>Joshua Kuschner</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2020-06-30T15:57:37-07:00</updated>
+ <updated>2020-07-01T15:25:26-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Joshua Kuschner</name>
@@ -13,29 +13,53 @@
 
  
  <entry>
-   <title>interest1</title>
+   <title>Developing Course Material for Theory of Computation</title>
+   <link href="http://localhost:4000/2020/07/01/theory_course_content.html"/>
+   <updated>2020-07-01T00:00:00-07:00</updated>
+   <id>http://localhost:4000/2020/07/01/theory_course_content</id>
+   <content type="html">&lt;p&gt;In this project, I will be working closely with two of my classmates and &lt;a href=&quot;https://cseweb.ucsd.edu/~minnes/&quot;&gt;Prof. Mia Minnes&lt;/a&gt; at UCSD over the course of five weeks to develop and edit course content for Prof. Minnes’s online Theory of Computation class.&lt;/p&gt;
+
+&lt;p&gt;Due to the recent pandemic, all university classes were fully remote during the spring quarter, and they will remain mostly remote for the foreseeable future. Therefore, it is our job to make the course content easier to digest and understand in a remote format.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Data Structures</title>
+   <link href="http://localhost:4000/2020/07/01/data_structures_notes.html"/>
+   <updated>2020-07-01T00:00:00-07:00</updated>
+   <id>http://localhost:4000/2020/07/01/data_structures_notes</id>
+   <content type="html">&lt;h4 id=&quot;binary-search-trees&quot;&gt;Binary Search Trees&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;A rooted tree where each node can have at most two children&lt;/li&gt;
+  &lt;li&gt;Has the property where every node is larger than all of the nodes in its left subtree and smaller than all of the nodes in its right subtree&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;k-d-trees&quot;&gt;K-D Trees&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Stands for K-Dimensional Tree; good for storing K-Dimensional values&lt;/li&gt;
+  &lt;li&gt;A type of BST where the level of tree determines which dimension is compared to determine the relationship between nodes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;randomized-search-trees&quot;&gt;Randomized Search Trees&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;A type of &lt;a href=&quot;https://www.youtube.com/watch?v=0i5vSP7Bz5Q&amp;amp;list=PLM_KIlU0WoXmkV4QB1Dg8PtJaHTdWHwRS&quot;&gt;Treap&lt;/a&gt; that uses elements as keys and randomly generates priorities&lt;/li&gt;
+  &lt;li&gt;The randomly generated priorities serve to reduce the likelihood of having a tree with an unnecessarily large height&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;avl-trees&quot;&gt;AVL Trees&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Another type of BST where every node must have a &lt;a href=&quot;https://stepik.org/lesson/28865/step/2?unit=9903&quot;&gt;balance factor&lt;/a&gt; of -1, 0, or 1&lt;/li&gt;
+  &lt;li&gt;When an insertion or deletion causes a balance factor to be off, &lt;a href=&quot;https://www.youtube.com/watch?v=xzmLuS0ZJmA&amp;amp;list=PLM_KIlU0WoXmkV4QB1Dg8PtJaHTdWHwRS&quot;&gt;AVL rotations&lt;/a&gt; must be performed to fix the balance factors&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Interests</title>
    <link href="http://localhost:4000/2020/06/26/first_interest.html"/>
    <updated>2020-06-26T00:00:00-07:00</updated>
    <id>http://localhost:4000/2020/06/26/first_interest</id>
-   <content type="html">&lt;p&gt;i am very interested&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>note1</title>
-   <link href="http://localhost:4000/2020/06/25/first_note.html"/>
-   <updated>2020-06-25T00:00:00-07:00</updated>
-   <id>http://localhost:4000/2020/06/25/first_note</id>
-   <content type="html">&lt;p&gt;This is the first note. websites are hard&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>project1</title>
-   <link href="http://localhost:4000/2020/05/05/first_project.html"/>
-   <updated>2020-05-05T00:00:00-07:00</updated>
-   <id>http://localhost:4000/2020/05/05/first_project</id>
-   <content type="html">&lt;p&gt;eee here is my project is iss very good.&lt;/p&gt;
+   <content type="html">&lt;p&gt;Nothing here yet, still working on creating more posts for the site. Check back later for updates on my interests.&lt;/p&gt;
 </content>
  </entry>
  

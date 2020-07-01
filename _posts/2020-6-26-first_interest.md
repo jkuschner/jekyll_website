@@ -1,6 +1,6 @@
 ---
 layout: page
-title: interest1
+title: Interests
 interests: true
 ---
-i am very interested
+Nothing here yet, still working on creating more posts for the site. Check back later for updates on my interests.
