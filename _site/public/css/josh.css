@@ -6,3 +6,18 @@
 #linksbox div {
   flex-grow: 1;
 }
+
+#portrait {
+  float: left;
+    margin: 1.4rem 20px 0 0;
+}
+
+.inlinephoto_left {
+  float: left;
+  margin: 0 20px 0 0;
+}
+
+.inlinephoto_right {
+  float: right;
+  margin: 0 20px 0 0;
+}

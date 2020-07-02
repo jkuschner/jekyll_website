@@ -2,7 +2,7 @@
 layout: default
 title: Home
 ---
-<img src="{{ site.url }}/linkedinphoto.jpg" width="250" id="portrait"/>
+<img src="{{ site.url }}/images/linkedinphoto.jpg" width="250" id="portrait"/>
 
 My name is Joshua Kuschner, and I am a computer science student. I am in the process of figuring out which particular field of computer science I want to really explore. So far I have had some exposure to theory, machine learning, and cybersecurity.
 

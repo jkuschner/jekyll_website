@@ -8,8 +8,9 @@ title: Interests
   {% if post.interests %}
 
         <h2>{{ post.title }}</h2>
+        <h4>{{ post.date | date_to_string }}</h4>
         {{ post.content }}
-        <hr>
+        <hr style="clear: both; padding-top: 1rem">
   {% endif %}
   {% endfor %}
 </div>

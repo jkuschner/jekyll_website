@@ -363,11 +363,6 @@ p {
 img {
 }
 
-#portrait {
-  float: left;
-    margin: 1.4rem 20px 0 0;
-}
-
 .progress-bar {
     height: 8px;
     background-color: var(--progress-bar-background);
