@@ -4,7 +4,7 @@
  <title>Joshua Kuschner</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2020-07-01T15:25:26-07:00</updated>
+ <updated>2020-07-02T15:26:57-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Joshua Kuschner</name>
@@ -50,6 +50,19 @@
 &lt;ul&gt;
   &lt;li&gt;Another type of BST where every node must have a &lt;a href=&quot;https://stepik.org/lesson/28865/step/2?unit=9903&quot;&gt;balance factor&lt;/a&gt; of -1, 0, or 1&lt;/li&gt;
   &lt;li&gt;When an insertion or deletion causes a balance factor to be off, &lt;a href=&quot;https://www.youtube.com/watch?v=xzmLuS0ZJmA&amp;amp;list=PLM_KIlU0WoXmkV4QB1Dg8PtJaHTdWHwRS&quot;&gt;AVL rotations&lt;/a&gt; must be performed to fix the balance factors&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;red-black-trees&quot;&gt;Red-Black Trees&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;A type of self-balancing BST that has the following special properties:
+    &lt;ol&gt;
+      &lt;li&gt;All nodes are either red or black&lt;/li&gt;
+      &lt;li&gt;The root must be black&lt;/li&gt;
+      &lt;li&gt;If a node is red, all of its children must be black&lt;/li&gt;
+      &lt;li&gt;For every node in the tree, every path down the tree to a null reference has the same number of black nodes(all null references are black)&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Because of these special properties, the insert and remove algorithms need to have ways of fixing any properties that are broken. See &lt;a href=&quot;https://www.youtube.com/watch?v=qvZGUFHWChY&amp;amp;list=PL9xmBV_5YoZNqDI8qfOZgzbqahCUmUEin&quot;&gt;this video series&lt;/a&gt; for a good explanation of the process.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
  </entry>
@@ -251,23 +264,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;Want to see something else added? &lt;a href=&quot;https://github.com/poole/poole/issues/new&quot;&gt;Open an issue.&lt;/a&gt;&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>What's Jekyll?</title>
-   <link href="http://localhost:4000/2012/02/06/whats-jekyll.html"/>
-   <updated>2012-02-06T00:00:00-08:00</updated>
-   <id>http://localhost:4000/2012/02/06/whats-jekyll</id>
-   <content type="html">&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/mojombo/jekyll/blob/master/README.markdown&quot;&gt;the project’s readme&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;It’s an immensely useful tool and one we encourage you to use here with Hyde.&lt;/p&gt;
-
-&lt;p&gt;Find out more by &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;visiting the project on GitHub&lt;/a&gt;.&lt;/p&gt;
 </content>
  </entry>
  
