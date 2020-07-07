@@ -4,7 +4,7 @@
  <title>Joshua Kuschner</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2020-07-02T16:52:13-07:00</updated>
+ <updated>2020-07-07T16:17:34-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Joshua Kuschner</name>
@@ -17,11 +17,11 @@
    <link href="http://localhost:4000/2020/07/02/this_is_my_ironman.html"/>
    <updated>2020-07-02T00:00:00-07:00</updated>
    <id>http://localhost:4000/2020/07/02/this_is_my_ironman</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/Ironman_wave.png&quot; width=&quot;300&quot; class=&quot;inlinephoto_left&quot; /&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/Ironman_wave.png&quot; width=&quot;400&quot; class=&quot;inlinephoto_left&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;For those of you that don’t know, this is my character in one of my favorite video games, Old School Runescape. Runescape is an MMORPG that was first released in 2001 and has gone through a few major game engine changes since then. The version of the game that I play was released in 2013, which reverted the game back to how it was in 2007(hence &lt;em&gt;Old School&lt;/em&gt; Runescape).&lt;/p&gt;
+&lt;p&gt;This is my character in one of my favorite video games, Old School Runescape. Runescape is an MMORPG that was first released in 2001 and has gone through a few major game engine changes since then. The version of the game that I play now is a reprise of the 2007 version(hence &lt;em&gt;Old School&lt;/em&gt; Runescape).&lt;/p&gt;
 
-&lt;p&gt;I first started playing the game with my two brothers, Benjamin and Jordan, when I was 6 years old, and I continued playing up until I started high school. I started playing again after I graduated from high school in 2016, and the version I had played when I was younger had become the Old School version.&lt;/p&gt;
+&lt;p&gt;I first started playing the game with my two brothers when I was 6 years old, and I continued playing up until I started high school. I started playing again after I graduated from high school in 2016, and the version I had played when I was younger had become the Old School version.&lt;/p&gt;
 
 &lt;p&gt;This is when I really got into the game. I enjoyed the game so much that I decided to make an Ironman account, an account with a simple restriction: you may not trade items with other players in any way. For a normal account, anytime that you want an weapon, piece of armor, or any other item you want, you can buy it off of the &lt;a href=&quot;https://oldschool.runescape.wiki/w/Grand_Exchange&quot;&gt;Grand Exchange&lt;/a&gt; with the in-game currency. Therefore, the bulk of your time spent is on the single piece of content that makes the most money. However, for an Ironman account, you must get every item from its true source in the game. This essentially turns a game that was already considered a &lt;em&gt;grindy&lt;/em&gt; game into one that is even more so.&lt;/p&gt;
 
@@ -81,15 +81,6 @@
   &lt;/li&gt;
   &lt;li&gt;Because of these special properties, the insert and remove algorithms need to have ways of fixing any properties that are broken. See &lt;a href=&quot;https://www.youtube.com/watch?v=qvZGUFHWChY&amp;amp;list=PL9xmBV_5YoZNqDI8qfOZgzbqahCUmUEin&quot;&gt;this video series&lt;/a&gt; for a good explanation of the process.&lt;/li&gt;
 &lt;/ul&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Interests</title>
-   <link href="http://localhost:4000/2020/06/26/first_interest.html"/>
-   <updated>2020-06-26T00:00:00-07:00</updated>
-   <id>http://localhost:4000/2020/06/26/first_interest</id>
-   <content type="html">&lt;p&gt;Nothing here yet, still working on creating more posts for the site. Check back later for updates on my interests.&lt;/p&gt;
 </content>
  </entry>
  

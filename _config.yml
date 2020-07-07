@@ -7,6 +7,7 @@ highlighter:      pygments
 #relative_permalinks: true
 
 # Setup
+name: Joshua Kuschner's Blog
 title:            Joshua Kuschner
 tagline:          'My personal notes, projects, and thoughts'
 description:      'This site contains a summary of my professional endeavors as well as some of my personal interests and details regarding those.'

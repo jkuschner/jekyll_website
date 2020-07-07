@@ -360,9 +360,6 @@ p {
     padding: 0 calc(var(--global-space) * 2)
 }
 
-img {
-}
-
 .progress-bar {
     height: 8px;
     background-color: var(--progress-bar-background);
