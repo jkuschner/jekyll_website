@@ -4,13 +4,41 @@
  <title>Joshua Kuschner</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2020-07-07T16:17:34-07:00</updated>
+ <updated>2020-07-30T21:47:04-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Joshua Kuschner</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>The Very Beginning</title>
+   <link href="http://localhost:4000/2020/07/30/the_very_beginning.html"/>
+   <updated>2020-07-30T00:00:00-07:00</updated>
+   <id>http://localhost:4000/2020/07/30/the_very_beginning</id>
+   <content type="html">&lt;p&gt;Fresh off the boat from Tutorial Island as an up and coming Ironman, I used
+OzrisRS’s &lt;a href=&quot;https://pastebin.com/0xGyuk5r&quot;&gt;guide&lt;/a&gt; to get an efficient start to my account. I planned to use the guide to get my pair of &lt;a href=&quot;https://oldschool.runescape.wiki/w/Barrows_gloves&quot;&gt;Barrows gloves&lt;/a&gt;, a key initial milestone for any new account, Ironman or otherwise.&lt;/p&gt;
+
+&lt;p&gt;For more information on why Barrows gloves are important start to any account, click &lt;em&gt;here&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Barrows gloves are essential the reward for completing the &lt;a href=&quot;https://oldschool.runescape.wiki/w/Recipe_for_Disaster&quot;&gt;Recipe For Disaster&lt;/a&gt; quest which consists of eight different subquests. In each of these you must save various NPCs from around the world from the evil &lt;a href=&quot;https://oldschool.runescape.wiki/w/Culinaromancer&quot;&gt;Culinaromancer&lt;/a&gt;. Once you have completed all of the subquests, you must face the Culinaromancer head on and defeat him. Once you are done, you finally get access to the coveted Barrows gloves, one of the most powerful pairs of gloves in the entire game.&lt;/p&gt;
+
+&lt;p&gt;In its entirety, Recipe For Disaster(RFD) has a hefty amount of prerequisites, so while working toward the completion of the quest, I would be improving a lot of my stats and completing other important quests.&lt;/p&gt;
+
+&lt;h3 id=&quot;wintertodt&quot;&gt;Wintertodt&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/Wintertodt.png&quot; width=&quot;450&quot; class=&quot;inlinephoto_right&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Before I could start on my questing journey, I needed to spend some time assisting the pyromancers in containing the &lt;a href=&quot;https://oldschool.runescape.wiki/w/Wintertodt&quot;&gt;Wintertodt&lt;/a&gt;. Fighting the Wintertodt is one of the best ways to train the &lt;a href=&quot;https://oldschool.runescape.wiki/w/Firemaking&quot;&gt;Firemaking&lt;/a&gt; skill while also getting valuable supplies as rewards. I want to do this while I am low level, because the minigame does damage based on my maximum health. Therefore, it is much easier to do with only 10 hitpoints because my food(which heals me) is more valuable.&lt;/p&gt;
+
+&lt;p&gt;Wintertodt can also yield some unique rewards including the &lt;a href=&quot;https://oldschool.runescape.wiki/w/Pyromancer_outfit&quot;&gt;Pyromancer outfit&lt;/a&gt;, the &lt;a href=&quot;https://oldschool.runescape.wiki/w/Phoenix&quot;&gt;Phoenix&lt;/a&gt; pet, and, most importantly, the &lt;a href=&quot;https://oldschool.runescape.wiki/w/Tome_of_fire&quot;&gt;Tome of fire&lt;/a&gt;. This tome can be equipped in the offhand slot, and when it is charged with &lt;a href=&quot;https://oldschool.runescape.wiki/w/Burnt_page&quot;&gt;burnt pages&lt;/a&gt;, it provides an infinite source of fire runes and amplifies the damage of all fire spells by 50%.&lt;/p&gt;
+
+&lt;p&gt;And so I toiled away at the pyromancer’s braziers until I reached 75 Firemaking. I had enough levels for now, so I moved on to some quests that would ultimately set me up for some new long training sessions.&lt;/p&gt;
+
+&lt;p&gt;In my next post, I’ll tell the tale of how I mastered the &lt;a href=&quot;https://oldschool.runescape.wiki/w/Thieving&quot;&gt;Thieving&lt;/a&gt; skill and greatly improved my &lt;a href=&quot;https://oldschool.runescape.wiki/w/Fishing&quot;&gt;Fishing&lt;/a&gt; and &lt;a href=&quot;https://oldschool.runescape.wiki/w/Agility&quot;&gt;Agility&lt;/a&gt; skills.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>This is my Ironman</title>
@@ -34,9 +62,7 @@
    <link href="http://localhost:4000/2020/07/01/theory_course_content.html"/>
    <updated>2020-07-01T00:00:00-07:00</updated>
    <id>http://localhost:4000/2020/07/01/theory_course_content</id>
-   <content type="html">&lt;p&gt;I will be working closely with two of my classmates at UCSD to develop and edit course content for &lt;a href=&quot;https://cseweb.ucsd.edu/~minnes/&quot;&gt;Prof. Minnes’s&lt;/a&gt; online Theory of Computation class.&lt;/p&gt;
-
-&lt;p&gt;Due to the recent pandemic, all university classes were fully remote during the spring quarter, and they will remain mostly remote for the foreseeable future. Therefore, it is our job to make the course content easier to digest and understand in a remote format.&lt;/p&gt;
+   <content type="html">&lt;p&gt;I worked closely with two of my classmates at UCSD to develop and edit course content for &lt;a href=&quot;https://cseweb.ucsd.edu/~minnes/&quot;&gt;Prof. Minnes’s&lt;/a&gt; online Theory of Computation class. Our job is to make the course content easier to digest and understand in a remote format.&lt;/p&gt;
 </content>
  </entry>
  

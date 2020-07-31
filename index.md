@@ -4,7 +4,7 @@ title: Home
 ---
 <img src="{{ site.url }}/images/linkedinphoto.jpg" width="250" id="portrait"/>
 
-My name is Joshua Kuschner, and I am a computer science student. I am in the process of figuring out which particular field of computer science I want to really explore. So far I have had some exposure to theory, machine learning, and cybersecurity.
+My name is Joshua Kuschner, and I am a computer science student. I am in the process of figuring out which particular field of computer science I want to really explore. So far I have had exposure to theory, machine learning, and cybersecurity.
 
 The rest of this website contains information about my projects and important things that I have learned from my classes or self study. Additionally, you will find updates about some of my favorite personal hobbies like gaming, cooking, and anything else.
 
