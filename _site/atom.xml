@@ -4,13 +4,56 @@
  <title>Joshua Kuschner</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2020-07-30T21:47:04-07:00</updated>
+ <updated>2020-11-27T20:06:20-08:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Joshua Kuschner</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>JISCTF 2020 Writeup</title>
+   <link href="http://localhost:4000/2020/11/27/JISCTF_2020_Writeup.html"/>
+   <updated>2020-11-27T00:00:00-08:00</updated>
+   <id>http://localhost:4000/2020/11/27/JISCTF_2020_Writeup</id>
+   <content type="html">&lt;p&gt;This was my first ever CTF challenge, and I only knew I would be participating the day before the event. Nevertheless, it sounded like some fun hacking time with my friends.&lt;/p&gt;
+
+&lt;p&gt;In the end, I was able to find 2 flags, both involving the inspection of &lt;code&gt;.pcapng&lt;/code&gt; files that contain network packets. The first flag I found was aptly named, So Easy. All I had to do was inspect the given &lt;code&gt;easy.pcapng&lt;/code&gt; file using WireShark. More precisely, I exported all HTTP objects from the file to find that there was a &lt;code&gt;login.php&lt;/code&gt; file in plain HTML text, so I navigated over to that packed and followed to TCP stream to get the HTML text to find the flag in the username field.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/image-20201121102459292.png&quot; alt=&quot;image-20201121102459292&quot; style=&quot;zoom:150%;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The second challenge I completed was significantly more difficult, but started the same way. I examined the provided &lt;code&gt;colurfull.pcapng&lt;/code&gt; file using WireShark. After looking through the traffic and finding nothing of value, I then looked to the FTP traffic. There we found that the attacker sent a &lt;code&gt;files.zip&lt;/code&gt; file to the server.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/image-20201127133403856.png&quot; alt=&quot;image-20201127133403856&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I calculated the port to be $256 * 180 +127=46207$ and filtered all of the traffic by that port number to find the file that the attacker sent. By following that TCP stream, we found the following zip file:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/image-20201127134712487.png&quot; alt=&quot;image-20201127134712487&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Since this starts with “PK” I know that it is a .zip file, so I saved it to my local as raw bytes only to find that it has been encrypted with a password!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/image-20201127140306990.png&quot; alt=&quot;image-20201127140306990&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To try to crack this password, I want to get a hash of it, so I can try to look up the original password in a table. As it turns out, I found the password to be “labeba”&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/image-20201127140550101.png&quot; alt=&quot;image-20201127140550101&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally! The file, &lt;code&gt;secret_data.txt&lt;/code&gt; has been extracted successfully. Surely this will contain the flag.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/image-20201127140923659.png&quot; alt=&quot;image-20201127140923659&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;What’s all this? It surely isn’t a flag, but it must be something. There are a lot more lines than this, and they are not all the same set of numbers. What could all of this data mean? Hmm… sets of 3 numbers, several of them repeating, none of them are greater than 255… that’s it! They must be pixel data that represents an image. The flag must be close. All I need to do is somehow convert all of this data into an actual image. It’s time to put my scripting skills to the test. Luckily, the Python PIL library was made just for this. The &lt;code&gt;frombytes()&lt;/code&gt; function takes the size of the image, and the image data as raw bytes to create an &lt;code&gt;Image&lt;/code&gt; object which can easily be converted to a &lt;code&gt;.png&lt;/code&gt; file. There are 10693 lines of data in the &lt;code&gt;secret_data.txt&lt;/code&gt; file which factors to $17^2\times 37$, so there are only a few possibilities for the size of the image. Now I need to convert the image data given as ASCII into raw bytes and feed them into the script, trying the different image sizes until we get an image that looks like something useful. The final script looks like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/image-20201127142336446.png&quot; alt=&quot;image-20201127142336446&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This wonderful script produced the following image:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/image-20201127142414612.png&quot; alt=&quot;image-20201127142414612&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sweet success!!&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>The Very Beginning</title>
@@ -194,15 +237,12 @@ OzrisRS’s &lt;a href=&quot;https://pastebin.com/0xGyuk5r&quot;&gt;guide&lt;/a&
 
 &lt;p&gt;Cum sociis natoque penatibus et magnis dis &lt;code&gt;code element&lt;/code&gt; montes, nascetur ridiculus mus.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Example can be run directly in your JavaScript console
-&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;// Example can be run directly in your JavaScript console&lt;/span&gt;
 
-&lt;span class=&quot;c1&quot;&gt;// Create a function that takes two arguments and returns the sum of those arguments
-&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;return a + b&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// Create a function that takes two arguments and returns the sum of those arguments&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;a&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;b&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;return a + b&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 
-&lt;span class=&quot;c1&quot;&gt;// Call the function
-&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// Call the function&lt;/span&gt;
 &lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;// &amp;gt; 8&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
