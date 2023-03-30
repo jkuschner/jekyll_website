@@ -4,7 +4,7 @@ title: Home
 ---
 <img src="{{ site.url }}/images/linkedinphoto.jpg" width="250" id="portrait"/>
 
-My name is Joshua Kuschner, and I am a computer science student. I am in the process of figuring out which particular field of computer science I want to really explore. So far I have had exposure to theory, machine learning, and cybersecurity.My name is Joshua Kuschner, and I am a software engineer at Moebius Solutions. Our company primarily is a contractor for the U.S. Navy. In my current project, I work on a team to maintain and harden a container repository for internal Navy use. So far, I have successfully hardened containers with OpenJDK11 and Redis 6.2 according to official standards known as STIGs.
+My name is Joshua Kuschner, and I am a software engineer at Moebius Solutions. Our company primarily is a contractor for the U.S. Navy. In my current project, I work on a team to maintain and harden a container repository for internal Navy use. So far, I have successfully hardened containers with OpenJDK11 and Redis 6.2 according to official standards known as STIGs.
 
 In addition to the work I do for Moebius, I enjoy learning about computer graphics, computer hardware, and physics. My favorite project was one I worked on in my final quarter of university, where I made a ray tracer that implements state of the art algorithms and techniques including global illumination, multiple importance sampling, and path tracing.
 
