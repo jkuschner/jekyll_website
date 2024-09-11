@@ -4,11 +4,11 @@ title: Home
 ---
 <img src="{{ site.url }}/images/linkedinphoto.jpg" width="250" id="portrait"/>
 
-My name is Joshua Kuschner, and I am a software engineer at Moebius Solutions. Our company primarily is a contractor for the U.S. Navy. In my current project, I work on a team to maintain and harden a container repository for internal Navy use. So far, I have successfully hardened containers with OpenJDK11 and Redis 6.2 according to official standards known as STIGs.
+My name is Joshua Kuschner. I am a dedicated software engineer with a strong foundation in computer science with a Bachelor's degree from UCSD. I have a keen eye for detail and a knack for crafting efficient solutions, I continued to hone my skills through practical experience at Moebius Solutions.
 
-In addition to the work I do for Moebius, I enjoy learning about computer graphics, computer hardware, and physics. My favorite project was one I worked on in my final quarter of university, where I made a ray tracer that implements state of the art algorithms and techniques including global illumination, multiple importance sampling, and path tracing.
+Driven by a lifelong curiosity and a commitment to professional growth, I am constantly seeking new opportunities to expand my skillset. My recent focus has been on deepening my understanding of full-stack web development, which I have been actively pursuing through a variety of personal projects. You can explore some of these projects in detail on my website.
 
-The rest of this website contains information about my projects and important things that I have learned from my classes or self study. Additionally, you will find updates about some of my favorite personal hobbies like gaming, cooking, and anything else.
+Beyond my professional pursuits, I find joy in exploring my passions. Whether it's experimenting with new recipes in the kitchen or hitting the tennis court for a competitive match, my hobbies allow me to maintain a balanced and fulfilling life.
 
 &nbsp;
 
