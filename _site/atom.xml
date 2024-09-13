@@ -4,13 +4,35 @@
  <title>Joshua Kuschner</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2024-09-11T13:01:12-07:00</updated>
+ <updated>2024-09-13T16:36:09-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Joshua Kuschner</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Fitness Tracker</title>
+   <link href="http://localhost:4000/2024/08/22/fitness-tracker.html"/>
+   <updated>2024-08-22T00:00:00-07:00</updated>
+   <id>http://localhost:4000/2024/08/22/fitness-tracker</id>
+   <content type="html">&lt;p&gt;A Java based web application built with SpringBoot that stores workout data in a PostgreSQL database. The API supports CRUD operations with a set of workouts personalized to the types of workouts I enjoy such as tennis, swimming, lifting, and yoga. The app helps me keep track of my workouts throughout the week and meet my fitness goals.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/jkuschner/FitnessTracker&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Tennis Ladder</title>
+   <link href="http://localhost:4000/2024/02/06/tennis-ladder.html"/>
+   <updated>2024-02-06T00:00:00-08:00</updated>
+   <id>http://localhost:4000/2024/02/06/tennis-ladder</id>
+   <content type="html">&lt;p&gt;A web application built with a React frontend that stores data in a SQLite database. Users can submit match data, and the app uses a ranking algorithm to display a ladder for all players that have played at least one match.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/jkuschner/TennisLadder&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Cloth Simulation</title>
