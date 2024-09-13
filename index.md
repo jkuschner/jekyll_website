@@ -2,7 +2,7 @@
 layout: default
 title: Home
 ---
-<img src="{{ site.url }}/images/linkedinphoto.jpg" width="250" id="portrait"/>
+<img src="{{ site.url }}/images/linkedinphoto.jpg" width="25%" id="portrait"/>
 
 My name is Joshua Kuschner. I am a dedicated software engineer with a strong foundation in computer science with a Bachelor's degree from UCSD. I have a keen eye for detail and a knack for crafting efficient solutions, I continued to hone my skills through practical experience at Moebius Solutions.
 
